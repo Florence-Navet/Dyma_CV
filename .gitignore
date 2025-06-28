@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Build/Output folders
+dist/
+build/
+
+# Sass cache files
+.sass-cache/
+*.css.map
+
+# CSS compilé (optionnel si généré automatiquement)
+*.css
+
+# IDEs
+.vscode/
+.idea/
+
+# Systèmes
+.DS_Store
+Thumbs.db
+
+# Logs & temporaires
+*.log
+*.tmp
