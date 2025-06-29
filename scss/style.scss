@@ -1,2 +1,56 @@
 @use "reset";
 @use "base";
+
+.grid-container {
+  display: grid;
+  grid:
+    "picture header" auto
+    "aside main" 1fr
+    / 350px auto;
+  min-height: 100vh;
+}
+
+header {
+  grid-area: header;
+  //   min-height: 30rem;
+  background: linear-gradient(to right, var(--primary), var(--light));
+  padding: 8rem 5rem;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 6rem;
+    line-height: 8rem;
+    font-weight: 300;
+    //     color: white;
+    letter-spacing: 3rem;
+  }
+  p {
+    letter-spacing: 0.5rem;
+  }
+}
+
+.picture {
+  grid-area: picture;
+  //   background: red;
+  padding: 6rem;
+  background: var(--background);
+  img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+aside {
+  grid-area: aside;
+  background: green;
+}
+main {
+  grid-area: main;
+  background: purple;
+}
