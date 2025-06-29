@@ -159,5 +159,16 @@ main {
   p {
     letter-spacing: 0.1rem;
     line-height: 3rem;
+    margin-bottom: 5rem;
+  }
+  .experience {
+    display: flex;
+    .timline {
+      text-align: center;
+      color: var(--hint);
+      padding-right: 1rem;
+
+    }
+
   }
 }

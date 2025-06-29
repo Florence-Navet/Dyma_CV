@@ -9,7 +9,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Florence-Navet/Dyma_CV.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Florence-Navet/Dyma_CV/issues"
+  },
+  "homepage": "https://github.com/Florence-Navet/Dyma_CV#readme",
+  "devDependencies": {
     "sass": "^1.89.2"
   }
 }
