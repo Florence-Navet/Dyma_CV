@@ -1,0 +1,25 @@
+/*pour téléphones*/
+@mixin xs {
+    @media(max-width: 480px) {
+        @content;
+    }
+}
+/*pour téléphones en mode mode paysage et tablette en mode portrait*/
+@mixin sm {
+    @media(max-width: 767px) {
+        @content;
+    }
+}
+/*pour téléphones portables tout types et tablettes en mode paysage*/
+@mixin md {
+    @media(min-width: 768px) and (max-width: 979px){
+        @content;
+    }
+}
+/*pour ecran d'ordi*/
+@mixin xl {
+    @media(min-width: 1200px) {
+        @content;
+    }
+}
+
