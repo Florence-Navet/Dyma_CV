@@ -9,8 +9,7 @@ build/
 .sass-cache/
 *.css.map
 
-# CSS compilé (optionnel si généré automatiquement)
-*.css
+
 
 # IDEs
 .vscode/
